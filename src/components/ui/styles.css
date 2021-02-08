@@ -1,0 +1,178 @@
+.AvatarLg {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin-bottom: 15px;
+}
+
+.AvatarMd {
+  height: 180px;
+  width: 180px;
+  border-radius: 100%;
+  margin-bottom: 15px;
+}
+
+.AvatarSm {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.btn {
+  margin-top: 15px !important;
+  background-color: rgb(48, 58, 166) !important;
+  border: 0px solid;
+}
+.btn:hover {
+  margin-top: 15px !important;
+  background-color: #0e89a8 !important;
+  border: 0px solid;
+  transition-duration: 0.4s;
+}
+.btn:focus,
+.btn:active:focus {
+  box-shadow: none !important;
+}
+
+.textStart {
+  text-align: start;
+}
+.textEnd {
+  text-align: end;
+}
+
+.chipIcon {
+  font-size: 15px;
+}
+
+.fa-1x {
+  font-size: 25px !important;
+}
+
+.inlineBlock {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.defaultNetColor {
+  color: #3a455c;
+}
+.facebookColor {
+  color: #2153bd;
+}
+.twitterColor {
+  color: #00acee;
+}
+.githubColor {
+  color: #ffffff;
+}
+.linkedinColor {
+  color: #0e76a8;
+}
+
+.portDiv {
+  padding: 5%;
+  margin-top: 20px;
+}
+
+.itemCont {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.itemPort {
+  opacity: 1;
+  width: 100%;
+  border-radius: 10px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.itemPortDescription {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.itemCont:hover .itemPort {
+  /* background-color: rgba(18, 22, 28, 0.1); */
+  opacity: 0.1;
+}
+
+.itemCont:hover .itemPortDescription {
+  opacity: 1;
+}
+
+.captionItem {
+  /* background-color: rgba(18, 22, 28, 0.7); */
+  background-color: transparent;
+  height: fit-content;
+  color: white;
+  font-size: 16px;
+  padding: 16px 16px;
+  border-radius: 5px;
+}
+
+.fontCaption {
+  font-size: 12px;
+  color: white;
+}
+.subFontCaption {
+  font-size: 10px;
+  color: white;
+}
+
+.educationUrl {
+  color: #4accff;
+}
+.educationUrl:hover {
+  color: #14a3db;
+  transition-duration: 0.5ms;
+}
+.noLinkDeco {
+  text-decoration: none;
+  color: white;
+}
+.noLinkDeco:hover {
+  text-decoration: none;
+  color: white;
+}
+.activeBtn {
+  background-color: #0e89a8 !important;
+}
+
+.faButton {
+  /*add mediaQueries*/
+  position: absolute !important;
+  right: 9vw;
+  bottom: 15vh;
+  z-index: 10;
+}
+
+.txtChip {
+  color: rgb(230, 230, 230) !important;
+  text-shadow: 1px 0 0 rgb(0, 0, 0), -1px 0 0 rgb(0, 0, 0), 0 1px 0 rgb(0, 0, 0),
+    0 -1px 0 rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0),
+    1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0);
+}
+
+/* ==============MEDIA-QUERIES============== */
+
+@media (max-width: 767px) {
+  .AvatarMd {
+    height: 70px;
+    width: 70px;
+    border-radius: 5%;
+    margin-bottom: 5px;
+  }
+  .btn {
+    margin-bottom: 25px;
+  }
+}
